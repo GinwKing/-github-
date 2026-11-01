@@ -21,7 +21,7 @@ st.set_page_config(
 
 )
 #logo
-st.logo("./resources/小黑子.jpg")
+st.logo("resources/小黑子.jpg")
 
 #与AI交互的客户端
 client = OpenAI(api_key=os.environ.get('DEEPSEEK_API_KEY'),base_url="https://api.deepseek.com")
